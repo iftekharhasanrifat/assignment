@@ -1,0 +1,90 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.cyan-btn{
+    background-color:mediumturquoise;
+    color:white;
+}
+#title{
+    font-family:Verveine;
+    font-size:72px;
+    color:rgb(238, 155, 0);
+}
+.title{
+    text-align:center;
+}
+.header-end a{
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+}
+p{
+    font-size:18px;
+}
+@media only screen and (min-width: 768px) {
+    .navbar-nav #patient-link{
+        border-right: 1px solid black;
+    }
+    .header-end{
+        display: block!important;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .card{
+        width: 500px!important;
+    }
+}
+.notes img{
+    width:60px;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search{
+    margin: 0 auto;
+    width:300px;
+}
+.has-search .form-control-feedback {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color:olivedrab;
+}
+.trial-purpose{
+    margin-top: 70px;
+}
+.card{
+    height: 200px;
+}
+.card-body{
+    background-color:teal;
+    color:white;
+}
+.single-row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.infromation-icon{
+    background-color:darkgrey;
+    border-radius: 50%;
+    height:25px;
+    width: 25px;
+    font-size:15px;
+    padding:6px;
+    text-align: center;
+    color:white;
+}
+.add-button{
+    width: 70px;
+    height:75px;
+}
+.add-button i{
+    font-size:35px;
+}
